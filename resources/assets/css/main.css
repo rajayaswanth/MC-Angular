@@ -1,0 +1,227 @@
+
+
+/*------------------------------------------LOGIN CSS STARTS----------------------------------------------------*/
+.logo{
+    width:70px;
+    height: 70px;
+    margin-bottom: 2%;
+    border-radius: 50%;
+}
+.login_text{
+    font-family: Raleway-Black;
+    font-size: 20px;
+    text-align: center;
+}
+.bg{
+    background-image: url("../../images/images.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.form {
+    width: 23.7%;
+    height: auto;
+    background-color: white;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10%;
+    margin-left: 38%;
+    border-radius: 5px;
+}
+.margin_top_Login{
+    margin-top: 20%;
+}
+.input_login {
+    font-family: Raleway-SemiBold;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #686868;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 62px;
+    border-radius: 3px;
+    padding: 0 30px 0 65px;
+    margin-bottom: 6%;
+}
+.login-form-btn {
+    font-family: Raleway-Bold;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 62px;
+    border-radius: 3px;
+    background: #5f595c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    transition: all 0.4s;
+    margin-bottom: 10%;
+}
+.bo1 {
+    border-bottom: 1px solid #999999;
+}
+.txt1 {
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.4;
+}
+.ho1{
+    margin-top: 4%;
+}
+.input-group_email{
+    margin-top: 5%;
+}
+.m-t-5-p{
+    margin-top: 5%;
+}
+.w-100{
+    width: 100% !important;
+}
+.button_login{
+    width:100%;
+    margin-top: 10%;
+}
+@media only screen and (max-width: 750px) {
+    .form{
+        width: 70.7%;
+        height: auto;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-bottom: 10%;
+        border-radius: 5px;
+    }
+    .form_registration{
+        width: 70.7% !important;
+        height: auto !important;
+        background-color: white !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin-top: 10% !important;
+        margin-left: 15% !important;
+        margin-bottom: 10% !important;
+        border-radius: 5px !important;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .form{
+        width: 71.7%;
+        height: auto;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-bottom: 10%;
+        border-radius: 5px;
+    }
+    .form_registration{
+        width: 71.7% !important;
+        height: auto !important;
+        background-color: white !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin-top: 10% !important;
+        margin-left: 15% !important;
+        margin-bottom: 10% !important;
+        border-radius: 5px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .form{
+        margin-top: 10%;
+    }
+    .form_registration{
+        margin-top: 10% !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .form{
+        margin-top: 15%;
+    }
+    .form_registration{
+        margin-top: 15% !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .form{
+        margin-top: 25%;
+    }
+    .form_registration{
+        margin-top: 25% !important;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .form{
+        margin-top: 30%;
+    }
+    .form_registration{
+        margin-top: 30% !important;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .form{
+        margin-top: 4%;
+    }
+    .form_registration{
+        margin-top: 4% !important;
+    }
+}
+@media only screen and (max-height: 380px) {
+    .form{
+        margin-bottom: 4%;
+    }
+    .form_registration{
+        margin-bottom: 4% !important;
+    }
+}
+@media only screen and (max-height: 650px) {
+    .form_registration{
+        margin-bottom: 3% !important;
+    }
+}
+.password_toggle{
+    cursor: pointer;
+}
+
+.err_msg{
+    color: red;
+}
+
+a:focus, a:hover {
+    color: black;
+    text-decoration: none !important;
+}
+
+/*------------------------------------------LOGIN CSS ENDS----------------------------------------------------*/
+/*-----------------------------------------SIGNUP CSS STARTS--------------------------------------------------*/
+.form_registration {
+    width: 30.7%;
+    height: auto;
+    background-color: white;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 3%;
+    margin-left: 35%;
+    border-radius: 5px;
+}

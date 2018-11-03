@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html ng-app="gr6Admin">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="Shortcut icon" href="resources/images/pp.jpg">
+	<title>SSSMC</title>
+	
+	<link rel="stylesheet" href="resources/assets/css/main.css" />
+	<!-- JQuery -->
+	<script src="resources/scripts/lib/jquery/jquery-1.11.3.min.js"></script>
+
+	<!-- AngularJS -->
+	<script src="resources/scripts/lib/angular/angular.min.js"></script>
+	<script src="resources/scripts/lib/angular/angular-sanitize.min.js"></script>
+	<script src="resources/scripts/lib/angular/angular-route.min.js"></script>
+	<script src="resources/scripts/lib/angular/angular-ui.min.js"></script>
+	<script src="resources/scripts/lib/angular/ng-tags-input.min.js"></script>
+	<script src="resources/scripts/lib/angular-local-storage/dist/angular-local-storage.min.js"></script>
+	
+	
+	<script src="resources/scripts/lib/bootstrap/dist/js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+	<script src="resources/scripts/lib/angular/angular-bootstrap-confirm.min.js"></script>
+	<script src="resources/assets/css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<!-- Vendor -->
+	<link rel="stylesheet" href="resources/assets/css/bootstrap.css" />
+	<link rel="stylesheet" href="resources/assets/css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/assets/css/audio.css" />
+	<link rel="stylesheet" href="resources/assets/css/easy-responsive-tabs.css" />
+	<link rel="stylesheet" href="resources/assets/css/font-awesome.css" />
+	<link rel="stylesheet" href="resources/assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="resources/assets/css/easy-icon-font.css" />
+	<link rel="stylesheet" href="resources/assets/css/jplayer.blue.monday.min.css" />
+	<link rel="stylesheet" href="resources/assets/css/popuo-box.css" />
+	
+	<!-- App -->
+	<script src="resources/scripts/app/app.js"></script>
+	
+	<!-- Load the Constants -->
+	<script src="resources/scripts/app/utils/constants.js"></script>
+
+
+	<script src="resources/assets/js/jquery.min.js"></script>
+	<script src="resources/assets/js/jquery.poptrox.min.js"></script>
+	<script src="resources/assets/js/skel.min.js"></script>
+	<script src="resources/assets/js/main.js"></script>
+
+	<!-- Load the controllers -->
+	<script src="resources/scripts/app/controllers/TemplateController.js"></script>
+	<script src="resources/scripts/app/controllers/LoginController.js"></script>
+	<script src="resources/scripts/app/services/LoginService.js"></script>
+    
+    
+	<!-- Load the Utils -->
+	<script src="resources/scripts/app/utils/HttpCommunicationUtil.js"></script>
+		
+</head>
+<body class="bg">
+	<style>
+		.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+			border-color: black !important;
+		}
+	</style>
+	  <div ng-controller="TemplateController" ng-init="init()">
+			<nav class="navbar navbar-inverse navbar-fixed-top" ng-if="loggedIn">
+				<!-- nav bar code -->
+			</nav>
+		</div>
+	</div>
+	<ng-view></ng-view>
+</body>
+</html>
